@@ -301,7 +301,10 @@ body {
     justify-content: space-between;
     gap: 2rem;
     flex-wrap: wrap;
+}
 
+.courses-cards:hover {
+    cursor: pointer;
 }
 
 .cards {
@@ -329,8 +332,32 @@ body {
 
 .course-image {
     position: absolute;
-    /* z-index: ; */
     bottom: 0;
     right: 0;
     width: 330px;
+}
+
+
+.benefits-right-container {
+    width: 50%;
+}
+
+.benefits-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-heading {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.benefits-list {
+    box-sizing: border-box;
+
+}
+
+.benefits-list-item {
+    margin-top: 2.1rem;
+    list-style-position: inside;
 }
