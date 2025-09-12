@@ -361,3 +361,26 @@ body {
     margin-top: 2.1rem;
     list-style-position: inside;
 }
+
+.special-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.special-body {
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 25px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.special-body-card>img {
+    width: 180px;
+    /* object-fit: contain; */
+}
+
+.special-body-card>p {
+    font-weight: 300;
+}
