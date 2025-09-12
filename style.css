@@ -1,0 +1,336 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+output,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins';
+}
+
+.navigation-bar {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.left-container,
+.right-container {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.list-item,
+.logo,
+.right-list-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .875rem;
+    position: relative;
+    margin: 0 15px;
+    font-weight: 400;
+}
+
+.list-item:hover {
+    cursor: pointer;
+}
+
+.list-item:hover::before {
+    content: "";
+    position: absolute;
+    bottom: -.5rem;
+    left: 0;
+    height: .25rem;
+    width: 100%;
+    border-radius: .75rem;
+    background-color: #007bff;
+}
+
+.material-symbols-outlined {
+    color: white;
+}
+
+.call button {
+    width: auto;
+    height: auto;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.call button .material-symbols-outlined {
+    margin: 6px;
+    font-size: 20px;
+}
+
+.call button:hover {
+    background-color: #0056b3;
+}
+
+.login button {
+    background-color: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    padding: 8px 16px;
+    border: 2px solid #007bff;
+}
+
+.login button:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+
+
+.banner,
+.banner-content {
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 10px; */
+}
+
+.banner-content {
+    margin: 4px 0;
+}
+
+.banner-content img {
+    width: 300px;
+    /* or height: 200px; */
+    height: auto;
+    /* or width: auto; */
+}
+
+.banner-first-text {
+    color: yellow;
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.banner-second-text {
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.banner .inline-image {
+    width: 30px;
+    display: inline;
+}
+
+.container {
+    background-color: #edf2fa;
+    width: 100%;
+}
+
+.web-content {
+    width: 100%;
+    max-width: 1030px;
+    margin: auto;
+    padding: 100px 0 0 0;
+}
+
+.top-line {
+    display: flex;
+    align-items: center;
+}
+
+.just-home-text {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.material-symbols-outlined.right-logo-intro {
+    color: grey;
+    margin: 0 4px;
+    font-size: 20px;
+}
+
+.just-online-program-text {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.intro-sect {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-sect .intro-left-part .heading {
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.intro-sect .intro-left-part .description {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.intro-left-part {
+    flex: 1;
+}
+
+.intro-right-part {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+}
+
+
+
+.intro-right-part img {
+    width: 60%;
+}
+
+
+.courses-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.courses-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+}
+
+.cards {
+    background-color: white;
+    width: 320px;
+    min-height: 240px;
+    border-radius: 20px;
+    position: relative;
+    padding: 1.75rem;
+}
+
+
+
+.card-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.course-card-link {
+    position: absolute;
+    bottom: 20px;
+    font-weight: 500;
+    color: #0056b3;
+}
+
+.course-image {
+    position: absolute;
+    /* z-index: ; */
+    bottom: 0;
+    right: 0;
+    width: 330px;
+}
