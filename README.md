@@ -35,6 +35,7 @@ The project follows a standard React application structure:
     - Courses.jsx: The section displaying the courses offered.
     - AdditionalBenefits.jsx: A component highlighting the key benefits of the courses.
     - Special.jsx: A section showcasing special features and offerings.
+    - AlternateOptions.jsx: A component to explore other coaching options.
   - App.jsx: The main application component that assembles the different sections.
   - main.jsx: The entry point of the application.
 - index.html: The main HTML file.
