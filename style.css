@@ -384,3 +384,35 @@ body {
 .special-body-card>p {
     font-weight: 300;
 }
+
+.alternate-content-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.alternate-content-flex-box {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.alternate-content-flex-container-items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1;
+    border-radius: 20px;
+    background-color: white;
+}
+
+
+.alternate-content-flex-container-items span {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.alternate-content-flex-box img {
+    margin: 35px;
+    width: 40px;
+}
