@@ -416,3 +416,30 @@ body {
     margin: 35px;
     width: 40px;
 }
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.footer-content ul {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.footer-content li {
+    font-size: 0.875rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+}
+
+.footer-data-heading {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.footer-content li:hover {
+    cursor: pointer;
+}

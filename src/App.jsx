@@ -4,6 +4,7 @@ import Courses from "./components/Courses";
 import AdditionalBelefits from "./components/AdditionalBenefits";
 import Special from "./components/Special";
 import AlternateOptions from "./components/AlternateOptions";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -13,6 +14,7 @@ function App() {
       <AdditionalBelefits />
       <Special />
       <AlternateOptions />
+      <Footer />
     </div>
   );
 }
