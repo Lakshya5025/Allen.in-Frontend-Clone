@@ -5,6 +5,7 @@ import AdditionalBelefits from "./components/AdditionalBenefits";
 import Special from "./components/Special";
 import AlternateOptions from "./components/AlternateOptions";
 import Footer from "./components/Footer";
+import CopyrightAndSocials from "./components/CopyrightAndSocials";
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
       <Special />
       <AlternateOptions />
       <Footer />
+      <CopyrightAndSocials />
     </div>
   );
 }
