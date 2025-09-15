@@ -23,7 +23,9 @@ export default function Navbar() {
           <li className="list-item">Classrooms</li>
           <li className="list-item">Results</li>
           <li className="list-item">Study Materials</li>
-          <li className="list-item">Scholarships</li>
+          <li className="list-item scholarship">
+            Scholarships <span className="new-word">NEW</span>
+          </li>
           <li className="list-item">ALLEN E-Store</li>
           <li className="list-item">More</li>
         </ul>
