@@ -8,6 +8,7 @@ import Results from "../pages/Results";
 import Scholarships from "../pages/Scholarships";
 import StudyMaterials from "../pages/StudyMaterials";
 import TestSeries from "../pages/TestSeries";
+import Error from "../pages/Error";
 const AppRoutes = () => {
   return (
     <Routes>
@@ -20,6 +21,7 @@ const AppRoutes = () => {
       <Route path="/scholarships" element={<Scholarships />} />
       <Route path="/allen-e-store" element={<AllenEStore />} />
       <Route path="/more" element={<More />} />
+      <Route path="*" element={<Error />} />
     </Routes>
   );
 };
