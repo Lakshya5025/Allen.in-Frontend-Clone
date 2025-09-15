@@ -107,6 +107,11 @@ body {
     padding: 15px 10px;
 }
 
+.list-item .nav-link {
+    text-decoration: none;
+    color: black;
+}
+
 .left-container,
 .right-container {
     list-style-type: none;

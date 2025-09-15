@@ -1,10 +1,9 @@
 import Navbar from "../components/Navbar";
-
-export default function Courses() {
+export default function Results() {
   return (
     <>
       <Navbar />
-      this is courses page
+      Results
     </>
   );
 }
