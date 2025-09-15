@@ -6,6 +6,7 @@ This project is a frontend clone of the Allen Career Institute's online program 
 
 - **Framework:** [React](https://reactjs.org/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
+- **Routing:** [React Router](https://reactrouter.com/)
 - **Linting:** [ESLint](https://eslint.org/)
 - **Styling:** Standard CSS with Flexbox and Grid
 
@@ -20,16 +21,17 @@ This project is a visual clone and does not include backend functionality. The i
   - Sections to display courses, benefits, and special features.
   - A comprehensive multi-column footer.
   - Social media links and copyright information.
+- **Routing:** The application uses React Router to navigate between different pages like Home, Courses, Test Series, etc.
 - **Responsive Layout:** The layout uses modern CSS properties like Flexbox and Grid to adapt to different screen sizes.
 
 ## **Project Structure**
 
 The project follows a standard React application structure:
 
-- public/: Contains public assets like vite.svg.
-- src/: Contains the main source code for the application.
-  - assets/: Contains static assets like images (e.g., react.svg).
-  - components/: Contains the reusable React components.
+- **public/**: Contains public assets like vite.svg.
+- **src/**: Contains the main source code for the application.
+  - **assets/**: Contains static assets like images (e.g., react.svg).
+  - **components/**: Contains the reusable React components.
     - Navbar.jsx: The navigation bar at the top of the page.
     - Intro.jsx: The main introductory section.
     - Courses.jsx: The section displaying course cards (JEE, NEET, etc.).
@@ -38,6 +40,18 @@ The project follows a standard React application structure:
     - AlternateOptions.jsx: A section for alternate coaching options.
     - Footer.jsx: The main footer with various informational links.
     - CopyrightAndSocials.jsx: The final section with social media icons and copyright text.
+  - **pages/**: Contains the different pages of the application.
+    - Home.jsx
+    - Courses.jsx
+    - TestSeries.jsx
+    - Classrooms.jsx
+    - Results.jsx
+    - StudyMaterials.jsx
+    - Scholarships.jsx
+    - AllenEStore.jsx
+    - More.jsx
+  - **router/**: Contains the routing configuration for the application.
+    - AppRouter.jsx
   - App.jsx: The main application component that assembles all the UI components.
   - main.jsx: The entry point of the React application.
 - index.html: The main HTML file.
